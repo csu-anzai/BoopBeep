@@ -8,6 +8,19 @@
 
 _This application shows the value of loops and arrays through execution and user input._
 
+## Specifications
+
+###Specs Behavior|Input|Output|
+
+|-|-|-|
+|User will only be able to input numbers. |"A" |invalid|
+|The program returns 0 to the users inputted number. |"4"|"0,1,2,3,4"|
+User inputted numbers that contains the number 1 will be replaced with "Beep!"  |"15"|"Beep"|
+User inputted numbers that contains the number 2 will be replaced with "Boop!" |"25"|"Boop"|
+User inputted numbers that contains the number 3 will be replaced with "I'm sorry, Dave. I'm afraid I can't do that." |"35"|"I'm sorry, Dave. I'm afraid I can't do that."|User inputted numbers that contain the number 3 will be replaced with "I'm sorry, Dave. I'm afraid I can't do that." |"35"|"I'm sorry, Dave. I'm afraid I can't do that."|
+User inputted numbers that contains both the numbers 1 and 2 will be replaced with "Boop". |"21"|"Boop|
+
+
 ## Setup/Installation Requirements
 
 * _Install BoopBeep by downloading zip file link from Github_
