@@ -10,7 +10,7 @@ _This application shows the value of loops and arrays through execution and user
 
 ## Specifications
 
-###Specs Behavior|Input|Output|
+
 
 
 ## Setup/Installation Requirements
