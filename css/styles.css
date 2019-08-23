@@ -1,0 +1,10 @@
+.container {
+  float: right;
+}
+body {
+  background-color: grey;
+}
+
+#result {
+  font-family: fantasy;
+}
