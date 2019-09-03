@@ -26,6 +26,29 @@ function frame(thisArray) {
 
 function switch(thisArray) {
   thisArray.forEach(function (thisArray) {
-    $('ol.zults')prepend(thisArray + '<br>')
-  })
+    $('ol.zults')prepend(thisArray + '<br>');
+  });
 }
+
+$(document).ready(function () {
+  $('#enternum').submit(function (event) {
+    event.preventDefault();
+    var entry = parseInt($('user'));
+    var name = $('#name').val();
+    var thisArray = Deltron(beepName, beepNumber);
+    $('ol.zults').empty();
+    return(thisArray);
+    $('#name').val('');
+    $('#user').val('');
+
+$(document).ready(function () {
+    $('.switch').submit(function (event) {
+    var entry = parseInt($('user'));
+    var name = $('#name').val();
+    var thisArray = Deltron(beepName, beepNumber);
+    $('ol.zults').empty();
+    return(thisArray);
+    $('#name').val('');
+    $('#user').val('');
+  });
+});
