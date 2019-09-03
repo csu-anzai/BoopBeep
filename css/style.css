@@ -1,6 +1,6 @@
 .container {
   float: none;
-  background-color: white;
+  background-color: pink;
   width: 20%;
   border-left: 20px solid red;
   padding: 60px;
@@ -8,7 +8,15 @@
   border-style: round;
   border-right: 20px solid purple;
 }
+#user {
+   background-color: tan;
 
+ }
+
+#name {
+   background-color: tan;
+
+ }
 
 #nice {
   text-align: center;
@@ -27,9 +35,9 @@ body  {
 #robot  {
    float: right;
    margin: auto;
-   background-color: white;
+   background-color: pink;
    width: 100%;
-   padding: 40px;
+   padding: 100px;
  } ;
 }
 
