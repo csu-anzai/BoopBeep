@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.12.4.js"></script>
+    <meta charset="utf-8">
+    <script src="js/jquery-1.12.4.js" charset="utf-8"></script>
     <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>BoopBeep</title>
+    <img id="robot" src="img/deltron.jpg">
   </head>
   <body>
-    <div class="container">
-      <h1>Boop & Beep Co.</h1>
+    <h1>Boop & Beep Co.</h1>
+      <div class="container">
           <form id="enternum">
-            <label for="form1">Type a number here--></label>
-            <input type="text">
-            <button class="btn btn-warning"  type="submit">Go!</a></button>
-      </form>
-      <br>
+            <label class="name"for="name">Name</label>
+            <input id='name' type="name" name="userbox">
+            <label class="number" for='user'>Number</label>
+            <input id='user' type="number" min=0 name="numberbox">
+            <button type="submit" id="submit" name="button">COMPUTE</button>
+          </form>
+          <br>
       <div id="result">
 
       </div>
     </div>
   </body>
-</html>
+  </html>
