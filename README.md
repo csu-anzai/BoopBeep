@@ -9,7 +9,14 @@
 _This application shows the value of loops and arrays through execution and user input._
 
 ## Specifications
-
+Behavior | Input | Output |
+| :---         |     :---:      |          ---: |
+| Search for user number and replace it with "Beep!"   |   1   |  Beep!  |
+| Search for the number 2 and replace it with "Boop!"     |    2    | Boop!      |
+| Search for the number 3 and replace it with "Im sorry, Dave.. "   |   3   | "Im sorry, Dave.."    |
+| Searches for a 1, 2, and 3 within given value and gives search result    |   10,20,30   | Beep!, Boop!, Im sorry, Dave..          |
+| Gives results in DOM  | 2     | 0, Beep! Boop! is printed in the UI |
+| Return a range of numbers from "0" to the users inputted number    |   6   |   0,1,2,3,4,5,6    |
 
 
 
@@ -25,6 +32,10 @@ _This application shows the value of loops and arrays through execution and user
 ## Known Bugs
 
 _None_
+
+## Git Hub Pages
+
+_ _
 
 ## Support and contact details
 
