@@ -33,9 +33,6 @@ Behavior | Input | Output |
 
 _None_
 
-## Git Hub Pages
-
-_ _
 
 ## Support and contact details
 
