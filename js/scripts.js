@@ -16,3 +16,16 @@ function Deltron(beepName, beepNumber) {
   }
     return thisArray;
 };
+
+
+function frame(thisArray) {
+  thisArray.forEach(function (thisArray) {
+    $('ol.zults')append(thisArray + '<br>');
+  });
+}
+
+function switch(thisArray) {
+  thisArray.forEach(function (thisArray) {
+    $('ol.zults')prepend(thisArray + '<br>')
+  })
+}
